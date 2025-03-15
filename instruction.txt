@@ -1,1 +1,25 @@
-This is chapter 4
+This is indtruction about git
+
+//To initialized emty git repository
+--git init
+
+//To see .git && hiden files
+--ls -a
+
+//To see status of staging area
+//RED files are store in working derectory but not in staging area
+--git status
+
+//To add staging area
+git add instruction.txt(file name)
+git add .(To add all files inside of working derectory to staging area)
+
+//To commit file
+--git commit -m "all instruction about git"
+
+//To see commit files
+--git log
+
+//To see different between updated file in working derectory file vs file store in local git repository
+--git diff indtruction.txt
+
