@@ -14,6 +14,9 @@ This is indtruction about git
 git add instruction.txt(file name)
 git add .(To add all files inside of working derectory to staging area)
 
+//To remove files from staging area
+git rm --cached -r .
+
 //To commit file
 --git commit -m "all instruction about git"
 
@@ -37,4 +40,13 @@ git push -u origin main
 
 //To over write remote history (use after amend)
 --git push --force origin main
+
+//To creat new branch
+--git branch second-branch(branch name)
+
+//To see all brachers in file
+--git branch
+
+//To swich between branchers
+git checkout second-branch(branch name)
 
