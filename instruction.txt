@@ -31,3 +31,10 @@ git add .(To add all files inside of working derectory to staging area)
 
 //To add commited files to remote repository (main branch)
 git push -u origin main
+
+//To change last commit message
+--git commit --amend -m "new message"
+
+//To over write remote history (use after amend)
+--git push --force origin main
+
