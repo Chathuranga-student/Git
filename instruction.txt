@@ -21,5 +21,13 @@ git add .(To add all files inside of working derectory to staging area)
 --git log
 
 //To see different between updated file in working derectory file vs file store in local git repository
---git diff indtruction.txt
+--git diff indtruction.txt(file name)
 
+//To roleback last version of file from local repository
+--git checkout instruction.txt (file name)
+
+//To add remote repository
+--git remote add origin <url>
+
+//To add commited files to remote repository (main branch)
+git push -u origin main
